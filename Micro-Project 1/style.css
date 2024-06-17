@@ -1,0 +1,112 @@
+html {
+    font-family: Inter;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    background-color: #FFCD9E;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-section {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 6vh 5vw 5vh 10vw;
+}
+
+h1 {
+    color: #282828;
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+p {
+    color: #484848;
+    font-weight: 500;
+    margin: 0.5em 0;
+    padding-right: 5.5vw;
+}
+
+p, h4{
+    font-size: 1.3em;
+}
+h4 {
+    color: #282828;
+    font-weight: 800;
+    margin: 2.5vh 0;
+}
+
+input {
+    padding: 1.5vh 8vh 1.5vh 2vh;
+    font-size: 1em;
+    font-weight: 700;
+    border: 0.25em solid #282828;
+    border-radius: 0.5em;
+}
+
+button {
+    padding: 1.5vh 5vh;
+    font-size: 1em;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #282828;
+    border: 0.25em solid #282828;
+    border-radius: 0.5em;
+    margin-left:0.8vw;
+}
+
+h5 {
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-left: 2vw;
+}
+
+.image-section {
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 100%;
+}
+
+.foot {
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2vh 10vw 1.3vh 10vw;
+}
+
+li {
+    font-weight: 400;
+    margin: 1.7vh 0;
+}
+
+.fa-brands {
+    padding-right: 1%;
+    color: #FFCD9E;
+}
+
+@media screen and (min-width: 320px) and (max-width: 412px){
+    .image-section{
+        width:0;
+    }
+    .content-section{
+        width: 100%;
+    }
+    li{
+        text-align: left;
+    }
+}
